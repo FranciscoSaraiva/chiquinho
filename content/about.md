@@ -3,4 +3,4 @@ title: "About"
 type: "page"
 ---
 
-Placeholder
+About
