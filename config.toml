@@ -1,0 +1,67 @@
+# We use feather-icons: https://feathericons.com/
+
+languageCode = "en"
+title = "Francisco Saraiva"
+theme = "gokarna"
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    pre = "<span data-feather='user'></span>"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "education"
+    name = "Education"
+    url = "/education/"
+    pre = "<span data-feather='book-open'></span>"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "experience"
+    name = "Experience"
+    url = "/experience/"
+    pre = "<span data-feather='code'></span>"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    pre = "<span data-feather='pen-tool'></span>"
+    post = ""
+    weight = 4
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    pre = "<span data-feather='tag'></span>"
+    weight = 5
+
+
+[params]
+  avatarURL = "../images/avatar.jpg"
+  avatarSize = "size-xl"
+  accentColor = "#f2aa44"
+  ShowBackToTopButton = true
+  dateFormat = "January 2, 2006"
+  footer = "Francisco Saraiva"
+  socialIcons = [
+    {name = "github", url = "https://github.com/FranciscoSaraiva"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/francisco-saraiva"},
+    {name = "codepen", url = "https://codepen.io/francis_hail"},
+    {name = "spotify", url = "https://open.spotify.com/user/0r0vwqqsbtzb8rt8qdou9jcvm/"},
+  ]
+  customHeadHTML = """
+		<link rel="stylesheet" href="../styles/styles.css" crossorigin="anonymous" >
+  """
+  customFooterHTML = """
+    <p id="timeAndDay"></p>
+    <script src="../scripts/script.js" crossorigin="anonymous"></script>
+  """
