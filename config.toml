@@ -48,7 +48,6 @@ enableEmoji = true
 [params]
   avatarURL = "../images/avatar.jpg"
   avatarSize = "size-xl"
-  accentColor = "#f2aa44"
   ShowBackToTopButton = true
   dateFormat = "January 2, 2006"
   footer = "Francisco Saraiva"
