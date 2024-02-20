@@ -46,6 +46,7 @@ enableEmoji = true
 
 
 [params]
+  description = "Welcome to my personal website, where I share things"
   avatarURL = "../images/avatar.jpg"
   avatarSize = "size-xl"
   ShowBackToTopButton = true
@@ -61,6 +62,6 @@ enableEmoji = true
 		<link rel="stylesheet" href="../styles/styles.css" crossorigin="anonymous" >
   """
   customFooterHTML = """
-    <p id="timeAndDay"></p>
+    <div id="footer-space"></div>
     <script src="../scripts/script.js" crossorigin="anonymous"></script>
   """

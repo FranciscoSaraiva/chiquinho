@@ -1,10 +1,11 @@
 //setTheme();
-setInterval(function () {
-    document.getElementById("timeAndDay").innerHTML = getTime();
-}, 1000);
 
+// Set the date and time in the footer and update it every second
+document.getElementById("footer-space").appendChild(document.createElement("div")).id = "timeAndDate";
+getTime();
+setInterval(getTime, 1000);
 function getTime() {
-    return new Date()
+    document.getElementById("timeAndDate").innerHTML = new Date()
         .toLocaleString('en-US', {
             weekday: 'long',
             year: 'numeric',
@@ -15,6 +16,17 @@ function getTime() {
             second: 'numeric',
             hour12: false
         });
+}
+
+// Generate a random quote to place below the social icons
+document.getElementById("content").appendChild(document.createElement("div")).id = "quote";
+document.getElementById("quote").innerHTML = getQuote();
+function getQuote() {
+    if (window.location == "http://localhost:1313/") {
+        return "<p>qoute about</p>";
+    } else {
+        return "";
+    }
 }
 
 /*function setTheme(season) {

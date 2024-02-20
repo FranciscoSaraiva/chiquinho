@@ -1,3 +1,8 @@
 .header {
     background-color: #f2aa44;
 }
+
+#quote {
+    font-style: italic;
+    text-align: center;
+}
