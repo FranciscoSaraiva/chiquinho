@@ -5,4 +5,16 @@
 #quote {
     font-style: italic;
     text-align: center;
+    margin: auto;
+    width: 75%;
+    animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

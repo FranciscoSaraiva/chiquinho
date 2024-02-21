@@ -22,11 +22,20 @@ function getTime() {
 document.getElementById("content").appendChild(document.createElement("div")).id = "quote";
 document.getElementById("quote").innerHTML = getQuote();
 function getQuote() {
-    if (window.location == "http://localhost:1313/") {
-        return "<p>qoute about</p>";
-    } else {
-        return "";
+    if (window.location.href === `${window.location.protocol}//${window.location.host}/`) {
+        fetch('https://api.quotable.io/quotes/random')
+            .then(response => response.json())
+            .then(data => {
+                let quote = data[0].content;
+                let author = data[0].author;
+                document.getElementById("quote").innerHTML = `"${quote}" - ${author} <br> (via <a href="https://quotable.io/" target="_blank">quotable.io</a>)`;
+
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
     }
+    return "";
 }
 
 /*function setTheme(season) {
