@@ -3,24 +3,32 @@ title: "Education"
 type: "page"
 ---
 
-### Camões Secondary School
-
-Computer and Information Management (2009-2012)
-
-{{< figure src="/images/education/camoes.png" >}}
-
----
-
-### Polytechnic Institute of Setúbal - School of Technology
-
-Bachelor in Informatics Engineering [Software Engineering] (2014-2018)
-
-{{< figure src="/images/education/ips.png" >}}
+{{<
+    education-block
+    place="Camões Secondary High School"
+    course="Computer and Information Management"
+    date="2010 to 2012"
+    image="/images/education/camoes.png"
+>}}
 
 ---
 
-### University of Minho - School of Engineering
+{{<
+    education-block
+    place="Polytechnic Institute of Setúbal - School of Technology"
+    course="Bachelor in Informatics Engineering"
+    specialization="Software Engineering"
+    date="2014 to 2018"
+    image="/images/education/ips.png"
+>}}
 
-Masters in Informatics Engineering [Knowledge and Architecture] (2019-2022)
+---
 
-{{< figure src="/images/education/uminho.png" >}}
+{{<
+    education-block
+    place="University of Minho - School of Engineering"
+    course="Masters in Informatics Engineering"
+    specialization="Knowledge and Architecture"
+    date="2019 to 2022"
+    image="/images/education/uminho.png"
+>}}
