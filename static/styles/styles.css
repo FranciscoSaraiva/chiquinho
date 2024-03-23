@@ -4,6 +4,7 @@
 }
 
 /* homepage */
+
 #quote {
     font-style: italic;
     text-align: center;
@@ -21,13 +22,26 @@
     }
 }
 
+/* about */
+
+
 /* experience */
 
-.experience-block {
-    display: flex;
-    align-items: center;
-    height: 200px;
+@media (min-width: 600px){
+    .experience-block {
+        display: flex;
+        align-items: center;
+        height: 200px;
+    }
+    
 }
+
+@media (max-width: 600px){
+    .experience-block {
+        text-align: center;
+    }
+}
+
 
 .experience-block img {
     width: 200px;
