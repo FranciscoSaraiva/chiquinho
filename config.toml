@@ -16,13 +16,6 @@ enableEmoji = true
     weight = 1
 
   [[menu.main]]
-    identifier = "education"
-    name = "Education"
-    url = "/education/"
-    pre = "<span data-feather='book-open'></span>"
-    weight = 2
-
-  [[menu.main]]
     identifier = "experience"
     name = "Experience"
     url = "/experience/"

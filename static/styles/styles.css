@@ -1,7 +1,9 @@
+/* general */
 .header {
     background-color: #f2aa44;
 }
 
+/* homepage */
 #quote {
     font-style: italic;
     text-align: center;
@@ -17,4 +19,17 @@
     to {
         opacity: 1;
     }
+}
+
+/* experience */
+
+.experience-block {
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+
+.experience-block img {
+    width: 200px;
+    border-radius: 5px;
 }
