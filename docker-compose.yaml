@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  chiquinho:
+    image: hugomods/hugo:exts
+    command: hugo server --bind 0.0.0.0
+    volumes:
+      - $PWD:/src
+      - $HOME/hugo_cache:/tmp/hugo_cache
+    ports:
+      - 1313:1313
+    networks:
+      web:
+        aliases:
+          - chiquinho.local
+
+networks:
+  web:
+    external: true
