@@ -1,4 +1,5 @@
 # We use feather-icons: https://feathericons.com/
+baseUrl = "https://chiquinho.github.io"
 
 languageCode = "en"
 title = "Chiquinho"
