@@ -40,7 +40,7 @@ enableEmoji = true
 
 [params]
   description = "Welcome to my personal website, where I share things"
-  avatarURL = "../images/avatar.jpg"
+  avatarURL = "/images/avatar.jpg"
   avatarSize = "size-xl"
   ShowBackToTopButton = true
   dateFormat = "January 2, 2006"
@@ -52,9 +52,9 @@ enableEmoji = true
     {name = "spotify", url = "https://open.spotify.com/user/0r0vwqqsbtzb8rt8qdou9jcvm/"},
   ]
   customHeadHTML = """
-		<link rel="stylesheet" href="../styles/styles.css" crossorigin="anonymous" >
+		<link rel="stylesheet" href="/styles/styles.css" crossorigin="anonymous" >
   """
   customFooterHTML = """
     <div id="footer-space"></div>
-    <script src="../scripts/script.js" crossorigin="anonymous"></script>
+    <script src="/scripts/script.js" crossorigin="anonymous"></script>
   """
