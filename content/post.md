@@ -1,0 +1,4 @@
+---
+title: "Title"
+type: "posto"
+---

@@ -4,3 +4,4 @@ This is my blog section. Here I write about my thoughts, experiences, things I l
 
 I separate them into categories, that you can check in the **[Tags](/tags)** section.
 
+{{< recent-posts >}}

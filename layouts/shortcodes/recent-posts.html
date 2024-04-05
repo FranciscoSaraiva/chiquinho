@@ -1,0 +1,11 @@
+{{ $posts := where .Site.RegularPages "Type" "post" }}
+{{ $count := len $posts }}
+{{ if gt $count 0 }}
+    {{ range .Site.RegularPages }}
+        {{ if eq .Type "post" }}
+            {{ .Date.Format "2006-01-02" }} - {{ .Title }}
+        {{ end }}
+    {{ end }}
+{{ else }}
+    No posts yet...
+{{ end }}

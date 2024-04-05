@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Salame de Chocolate",
+        "ingredients": [
+            "100g (ou 250g) de chocolate",
+            "2 (ou 3) ovos",
+            "250g de açúcar",
+            "250g (ou 125g ou 200g) de Bolacha Maria",
+            "2 colheres de sopa de manteiga derretida"
+        ],
+        "preparation": [
+            "Bate-se os ovos com o açúcar",
+            "Mistura-se o chocolate e torna-se a bater",
+            "Depois a manteiga derretida",
+            "Corta-se as bolachas em pedaços pequenos e junta-se ao preparado",
+            "Numa folha de alumínio, coloca-se o preparado e molda-se em forma de salame"
+        ]
+    },
+    {
+        "name": "Torta de Chocolate",
+        "ingredients": [
+            "375g de açúcar",
+            "9 ovos",
+            "162g de farinha",
+            "Cacau e chocolate"
+        ],
+        "preparation": [
+            "Bate-se as gemas com o açúcar",
+            "Junta-se a farinha",   
+            "Bate-se as claras em castelo e junta-se ao preparado",
+            "Vai ao forno a 180ºC durante 20 minutos",
+            "À parte, derrete-se o chocolate e junta-se o cacau",
+            "Depois de cozido, desenforma-se e barra-se com o chocolate",
+            "Com um pano húmido, enrola-se a torta"
+        ]
+    },
+    {
+        "name": "Pudim de Ovos",
+        "ingredients": [
+            "4 ovos",
+            "250g de açúcar",
+            "250ml de leite"
+        ],
+        "preparation": [
+            "Bate-se os ovos com o açúcar",
+            "Pouco a pouco, junta-se o leite",
+            "Cozer em banho-maria durante 45 minutos"
+        ]
+    }
+]
