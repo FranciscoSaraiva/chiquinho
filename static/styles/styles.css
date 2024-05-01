@@ -3,6 +3,10 @@
     background-color: #f2aa44;
 }
 
+figcaption{
+    text-align: center;
+} 
+
 /* homepage */
 
 #quote {
