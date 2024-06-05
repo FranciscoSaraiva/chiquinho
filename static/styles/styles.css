@@ -3,6 +3,10 @@
     background-color: #f2aa44;
 }
 
+figcaption{
+    text-align: center;
+} 
+
 /* homepage */
 
 #quote {
@@ -47,3 +51,11 @@
     width: 200px;
     border-radius: 5px;
 }
+
+.cover{
+    text-align: center;
+} 
+
+.post-tags{
+    text-align: center;
+} 

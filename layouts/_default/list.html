@@ -1,0 +1,13 @@
+{{ define "main" }}
+    {{ if eq .Type "page" }}
+        <div class="post container">
+            {{ .Content }} 
+        </div>
+        {{- partial "page.html" . -}}
+    {{ else }}
+        <div class="post container">
+            {{ .Content }} 
+        </div>
+        {{- partial "list.html" . -}}
+    {{ end }}
+{{ end }}
