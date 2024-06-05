@@ -56,6 +56,10 @@ figcaption{
     text-align: center;
 } 
 
-.post-tags{
+.post-tags {
     text-align: center;
+} 
+
+.post-tag{
+    margin-right: 5px;
 } 
