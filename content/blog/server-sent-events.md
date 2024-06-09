@@ -2,7 +2,7 @@
 type: post
 title: "Server-Sent Events: Real-Time Communication For Cool Kids"
 date: 2023-09-27T15:17:14+01:00
-tags: [server-sent events, streaming, rtc, http, real-time communication]
+tags: [software, server-sent events, streaming, rtc, http, real-time communication]
 description: "An introduction to Server Sent Events (SSE) and how they can be used to stream data from the server to the client."
 cover: "/images/blog/server-sent-events/cover.jpeg"
 coverCaption: "Please note that \"Style\" is subjective"

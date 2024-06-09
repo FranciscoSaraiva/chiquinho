@@ -2,7 +2,7 @@
 type: post
 title: "AssertEqualsCanonicalizing() can save lives"
 date: 2024-05-02T10:10:00+01:00
-tags: [php, phpunit, laravel, tests, pipelines]
+tags: [software, php, phpunit, laravel, tests, pipelines]
 description: "The public announcement to use `assertEqualsCanonicalizing()` in your tests."
 cover: "/images/blog/assert-equals-canonicalizing/cover.png"
 coverCaption: "Oh no the pipeline broke again"

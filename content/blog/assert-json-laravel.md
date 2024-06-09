@@ -3,7 +3,7 @@ type: post
 title: "TIL: assertDatabaseHas JSON data in Laravel"
 date: 2024-01-29T18:13:00+01:00
 author: "francisco.saraiva@infraspeak.com"
-tags: [til, php, phpunit, laravel, tests, pgsql]
+tags: [software, til, php, phpunit, laravel, tests, pgsql]
 description: "In today's episode of TIL, aka I remembered to ask ChatGPT something."
 cover: "/images/blog/assert-json-laravel/1-til-json-laravel-cover.png"
 coverCaption: "Anyone notice how many elephants are used in logos in software?"

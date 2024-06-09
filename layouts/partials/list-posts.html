@@ -1,5 +1,13 @@
 <article class="post-title">
+    <img src="{{ .Site.BaseURL }}{{ .Params.cover }}" alt="{{ .Title }}" class="post-cover">
     <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+    <div class="post-information">
+        <span class="post-date">
+            {{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date }}
+        </span>
+        <span>{{ .ReadingTime }} minute read</span>
+    </div>
+    </span>
     <div class="flex-break"></div>
-    <span class="post-date">{{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date}}</span>
 </article>
+<hr>

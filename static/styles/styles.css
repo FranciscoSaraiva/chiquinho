@@ -64,3 +64,29 @@ figcaption{
     margin-right: 5px;
     margin-top: 5px;
 } 
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 50%;
+        border-radius: 5px;
+    }
+
+    .post-link {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 15pt;
+    }
+
+    .post-information {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        font-size: 12pt;
+        width: 50%;
+    }
+}
