@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   chiquinho:
-    image: hugomods/hugo:exts
-    command: hugo server --bind 0.0.0.0 -D --logLevel debug
+    image: hugomods/hugo:exts-0.122.0
+    command: hugo server --baseURL http://localhost:1313/ --bind 0.0.0.0 -D --logLevel debug
     volumes:
       - $PWD:/src
       - $HOME/hugo_cache:/tmp/hugo_cache
